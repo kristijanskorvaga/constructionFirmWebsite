@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(244, 244, 244, 255);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 40px;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(58, 58, 58, 255);
+  position: relative;
+}
+
+.arrow {
+  border: solid #7f7774;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+a {
+  width: 170px;
+  height: 0px;
+  background-color: #7f7774;
+  padding: 1px;
+  transition: height 0.5s;
+}
+.Djelatnosti {
+  width: 230px;
+  height: 0px;
+  background-color: #7f7774;
+  padding: 1px;
+}
+
+a:link {
+  color: rgba(244, 244, 244, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(244, 244, 244, 255);
+}
+
+a:hover {
+  color: rgba(56, 56, 56, 255);
+  height: 45px;
+}
+
+.mainImgTemplate {
+  display: flex;
+  justify-content: right;
+}
+
+aside {
+  width: 20%;
+  display: flex;
+  justify-content: left center;
+  color: rgba(147, 139, 136, 255);
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
